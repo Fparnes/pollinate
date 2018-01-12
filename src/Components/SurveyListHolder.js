@@ -25,7 +25,7 @@ class SurveyListHolder extends Component {
     render() {
         return (
             <div className='navbar navbar-default'>
-                <SurveyListTitleBar ClickFunction={null} TextTitle={this.props.TextTitle}/>
+                <SurveyListTitleBar ClickFunction={this.props.ClickFunction} TextTitle={this.props.TextTitle} TextButton={this.props.TextButton}/>
                 {this.SurveyPrinterDisplay()}
 
             </div>

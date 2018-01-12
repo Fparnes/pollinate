@@ -5,6 +5,10 @@ import { Redirect, withRouter } from 'react-router'
 
 
 class SurveyListTitle_Bar extends Component {
+    constructor(props){
+        super(props)
+        this.state = {Redirect: false}
+    }
     render() {
         if(this.state.Redirect){
             console.log('hello');
@@ -17,8 +21,7 @@ class SurveyListTitle_Bar extends Component {
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <div className="nav navbar-nav navbar-right PaddingRight">
-                            <button onClick={this.props.Action}} className='btn btn-default navbar-btn'>{this.props.TextButton}</button>
-
+                            <button onClick={this.props.ClickFunction} className='btn btn-default navbar-btn'>{this.props.TextButton}</button>
                         </div>
                     </div>
                 </div>

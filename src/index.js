@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
@@ -15,6 +14,8 @@ import SubmitNewSurvey_Page from './Components/Pages/SubmitNewSurvey_Page';
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+//css
+import './index.css';
 
 
 ReactDOM.render(
