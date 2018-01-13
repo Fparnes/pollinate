@@ -11,7 +11,7 @@ class NewSurvey_Popup extends Component {
                 <div className='popup_inner'>
                     <nav className='navbar navbar-default'>
                         <div className="navbar-header">
-                            <p className="navbar-brand">Create a new Survey:</p>
+                            <p className="navbar-brand">{this.props.Title}</p>
                         </div>
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <div className="nav navbar-nav navbar-right">
@@ -25,6 +25,11 @@ class NewSurvey_Popup extends Component {
         );
     }
 }
+
+NewSurvey_Popup.defaultProps = {
+    Title: 'Default Title',
+    ClickFunction: ()=>{alert('No Prop Passed')}
+};
 
 export default NewSurvey_Popup;
 

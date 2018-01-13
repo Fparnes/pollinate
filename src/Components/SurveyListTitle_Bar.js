@@ -6,12 +6,11 @@ import { Redirect, withRouter } from 'react-router'
 
 class SurveyListTitle_Bar extends Component {
     constructor(props){
-        super(props)
+        super(props);
         this.state = {Redirect: false}
     }
     render() {
         if(this.state.Redirect){
-            console.log('hello');
             return <Redirect to="/" />;
         } else {
             return (

@@ -13,12 +13,11 @@ class SurveyListHolder extends Component {
         this.state = { Redirect: false};
     }
     SurveyPrinterDisplay(){
-        let ListOfSurveys = [{Questions: 10, People: 20, Title: 'Survey Two', Percent: 23},
-            {Questions: 11, People: 20, Title: 'Survey One', Percent: 13},
-            {Questions: 12, People: 20, Title: 'Survey Three', Percent: 20}];
+
+        const ListOfSurveys = this.props.SurveyData;
 
             return ListOfSurveys.map((Survey)=>{
-                return <SurveyBar key={Survey.Title} SurveyTitle={Survey.Title} Questions={Survey.Questions} People={Survey.People} PercentValue={Survey.Percent}/>
+                return <SurveyBar Circle={this.props.Circle} key={Survey.Title} SurveyTitle={Survey.Title} Questions={Survey.Questions} People={Survey.People} PercentValue={Survey.Percent}/>
             });
     }
 
