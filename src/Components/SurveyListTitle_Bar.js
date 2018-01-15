@@ -1,18 +1,10 @@
 import React, { Component } from 'react';
-import { Redirect, withRouter } from 'react-router'
 
 //css
 
 
 class SurveyListTitle_Bar extends Component {
-    constructor(props){
-        super(props);
-        this.state = {Redirect: false}
-    }
     render() {
-        if(this.state.Redirect){
-            return <Redirect to="/" />;
-        } else {
             return (
                 <div className='UnderLine'>
                     <div className="navbar-header">
@@ -25,7 +17,6 @@ class SurveyListTitle_Bar extends Component {
                     </div>
                 </div>
             );
-        }
 
     }
 }
@@ -34,5 +25,3 @@ SurveyListTitle_Bar.defaultProps = {
     TextButton: '+',
     TextTitle: 'Default Prop Passed'
 };
-
-export default withRouter(SurveyListTitle_Bar);

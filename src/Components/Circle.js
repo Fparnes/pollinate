@@ -1,4 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
+
 
 //css
 import '../Styles/SurveyBar_Styles.css';

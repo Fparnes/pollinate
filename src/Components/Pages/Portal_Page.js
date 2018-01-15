@@ -12,6 +12,7 @@ class Portal_Page extends Component {
             PopUpToggle: false
         }
     }
+    //Displays
     NewSurvey_Toggle(IDofButtonClicked){
 
         if(this.state.PopUpToggle){
@@ -27,25 +28,29 @@ class Portal_Page extends Component {
     }
     NewSurvey_Display(){
          if(this.state.PopUpToggle){
-             return <NewSurveyPopup Title={this.state.IDofButtonClicked} ClickFunction={this.NewSurvey_Toggle.bind(this)} NewSurvey_Toggle={this.NewSurvey_Toggle}/>
+             return <NewSurveyPopup Title={this.state.IDofButtonClicked} ClickFunction={this.NewSurvey_Toggle.bind(this)}
+                                    NewSurvey_Toggle={this.NewSurvey_Toggle} ButtonText='Close'/>
          }
     }
     render() {
         let ListOfSurveys = [{Questions: 10, People: 20, Title: 'Survey Two', Percent: 23},
-            {Questions: 11, People: 20, Title: 'Survey One', Percent: 13},
+            {Questions: 11, People: 20, Title: 'Suddrvey One', Percent: 13},
             {Questions: 12, People: 20, Title: 'Survey Three', Percent: 20}];
 
         return (
             <div>
-                <NavigationBar MainLink='Portal' SideLinkValue='AccountSettings' SideLinkText='Wilfred'/>
+
+                <NavigationBar MainLink='Portal' LinkText='AccountSettings' Text='Wilfred'/>
                 {this.NewSurvey_Display()}
                 <div className='container'>
+
                     <ButtonLink ButtonClass="btn btn-default navbar-btn" LinkText="/ClientTeam" Text="Your Team"/>
                     <div className='col-md-6'>
-                        <SurveyListHolder Circle={true} ClickFunction={()=>{this.NewSurvey_Toggle('Submit New Survey')}} SurveyData={ListOfSurveys}  TextTitle='Ongoing'/>
+                        <SurveyListHolder Circle={true} ClickFunction={()=>{this.NewSurvey_Toggle('Submit New Survey')}} SurveyData={ListOfSurveys}
+                                          ButtonText='New Survey' TextTitle='Ongoing'/>
                     </div>
                     <div className='col-md-6'>
-                        <SurveyListHolder Circle={true} ClickFunction={null}  TextTitle='Complete' SurveyData={ListOfSurveys} TextButton='New Folder'/>
+                        <SurveyListHolder Circle={true} ClickFunction={ undefined}  TextTitle='Complete' SurveyData={ListOfSurveys} ButtonText='New Folder'/>
                     </div>
                 </div>
             </div>

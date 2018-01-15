@@ -13,7 +13,7 @@ class Navigation_Bar extends Component {
                 </div>
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <div className="nav navbar-nav navbar-right">
-                        <ButtonLink ButtonClass="btn btn-default navbar-btn" LinkText={this.props.SideLinkValue} Text={this.props.SideLinkText}/>
+                        <ButtonLink ButtonClass="btn btn-default navbar-btn" LinkText={this.props.LinkText} Text={this.props.Text}/>
                     </div>
                 </div>
             </nav>
@@ -24,8 +24,9 @@ class Navigation_Bar extends Component {
 SurveyBar.defaultProps = {
     SideLinkValue: 'Error',
     SideLinkText: 'No Prop Passed',
-    MainLink: 'No Prop Passed'
+    MainLink: '/AccountSettings'
 };
+
 
 
 

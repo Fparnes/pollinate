@@ -26,7 +26,8 @@ class WorkerHome_Page extends Component {
     }
     NewSurvey_Display(){
         if(this.state.PopUpToggle){
-            return <NewSurveyPopup Title={this.state.IDofButtonClicked} ClickFunction={this.NewSurvey_Toggle.bind(this)} NewSurvey_Toggle={this.NewSurvey_Toggle}/>
+            return <NewSurveyPopup Title={this.state.IDofButtonClicked} ClickFunction={this.NewSurvey_Toggle.bind(this)}
+                                   NewSurvey_Toggle={this.NewSurvey_Toggle} ButtonText='Close'/>
         }
     }
     render(){
@@ -39,16 +40,17 @@ class WorkerHome_Page extends Component {
         return(
 
             <div>
-                <NavigationBar MainLink='EmployeePortal' SideLinkValue='AccountSettings' SideLinkText='Wu Tang'/>
+                <NavigationBar MainLink='EmployeePortal' LinkText='AccountSettings' Text='Account'/>
                 {this.NewSurvey_Display()}
                 <div className='container'>
                     <div className='col-md-6'>
                         <SurveyListHolder ClickFunction={()=>{this.NewSurvey_Toggle(MakeAppointment)}} SurveyData={ListOfSurveys}
-                                          TextTitle='List of Upcoming Appointments:' TextButton={MakeAppointment}/>
+                                          TextTitle='List of Upcoming Appointments:' TextButton={MakeAppointment}
+                                          ButtonText='Schedule a Appointment'/>
                     </div>
                     <div className='col-md-6'>
                         <SurveyListHolder ClickFunction={()=>{this.NewSurvey_Toggle(CreateSurvey)}} SurveyData={ListOfSurveys}
-                                          TextTitle='List of Active Surveys' TextButton={CreateSurvey}/>
+                                          TextTitle='List of Active Surveys' ButtonText='Add Survey'/>
                     </div>
                 </div>
 

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import GenricNavBar from './GenricNav_Bar';
 
 
 //css
@@ -9,17 +10,7 @@ class NewSurvey_Popup extends Component {
         return (
             <div className='popup'>
                 <div className='popup_inner'>
-                    <nav className='navbar navbar-default'>
-                        <div className="navbar-header">
-                            <p className="navbar-brand">{this.props.Title}</p>
-                        </div>
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <div className="nav navbar-nav navbar-right">
-                                <button onClick={this.props.ClickFunction} className='btn btn-default navbar-btn MarginRight'>Close</button>
-                            </div>
-                        </div>
-                    </nav>
-
+                    <GenricNavBar ClickFunction={this.props.ClickFunction} TextTitle={this.props.Title} ButtonText={this.props.ButtonText}/>
                 </div>
             </div>
         );

@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//React Router
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
+
+//Redux
+import { createStore } from 'redux'
+import { Provider } from 'react-redux';
+import State from './Redux/reducers';
 
 //Pages
 import Portal_Page from './Components/Pages/Portal_Page';
@@ -17,17 +23,22 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 //css
 import './index.css';
 
+let store = createStore(State);
 
+console.log('jhello');
+console.log(store.getState());
 
 ReactDOM.render(
-    <Router>
-        <div>
-            <Route exact path="/" component={Login_Page}/>
-            <Route exact path="/Portal" component={Portal_Page}/>
-            <Route exact path="/AccountSettings" component={Account_Settings}/>
-            <Route exact path="/ClientTeam" component={ClientTeam_Page}/>
-            <Route exact path="/EmployeePortal" component={WorkerHome_Page}/>
-        </div>
-    </Router>
+    <Provider store={store}>
+        <Router>
+            <div>
+                <Route exact path="/" component={Login_Page}/>
+                <Route exact path="/Portal" component={Portal_Page}/>
+                <Route exact path="/AccountSettings" component={Account_Settings}/>
+                <Route exact path="/ClientTeam" component={ClientTeam_Page}/>
+                <Route exact path="/EmployeePortal" component={WorkerHome_Page}/>
+            </div>
+        </Router>
+    </Provider>
     , document.getElementById('root'));
 registerServiceWorker();
