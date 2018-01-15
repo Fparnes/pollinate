@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9186390-8329-4cc9-a96c-7ec7905951e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/BreadCrumb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/GenricNav_Bar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/Dumb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/TestCoin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Redux/reducers/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/BreadCrumb_Style.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Circle.js" afterPath="$PROJECT_DIR$/src/Components/Circle.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navigation_Bar.js" afterPath="$PROJECT_DIR$/src/Components/Navigation_Bar.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewSurvey_Popup.js" afterPath="$PROJECT_DIR$/src/Components/NewSurvey_Popup.js" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ClientTeam_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/ClientTeam_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Portal_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/Portal_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/WorkerHome_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/WorkerHome_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SurveyListHolder.js" afterPath="$PROJECT_DIR$/src/Components/SurveyListHolder.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SurveyListTitle_Bar.js" afterPath="$PROJECT_DIR$/src/Components/SurveyListTitle_Bar.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Survey_Bar.js" afterPath="$PROJECT_DIR$/src/Components/Survey_Bar.js" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Circle_Styles.css" afterPath="$PROJECT_DIR$/src/Styles/Circle_Styles.css" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +31,8 @@
       <file leaf-file-name="AccountSettings_Page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -84,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/Portal_Page.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -320,12 +302,12 @@
       <workItem from="1515690803624" duration="24553000" />
       <workItem from="1515775547462" duration="4244000" />
       <workItem from="1515852266436" duration="33000" />
-      <workItem from="1515853971089" duration="18523000" />
+      <workItem from="1515853971089" duration="19152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47353000" />
+    <option name="totallyTimeSpent" value="47982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -598,11 +580,11 @@
         <state relative-caret-position="540">
           <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="51" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#77#141#0" expanded="true" />
-            <element signature="e#212#247#0" expanded="true" />
-            <element signature="e#335#392#0" expanded="true" />
-            <element signature="e#665#707#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#77#141#0" expanded="false" />
+            <element signature="e#212#247#0" expanded="false" />
+            <element signature="e#335#392#0" expanded="false" />
+            <element signature="e#665#707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,7 +594,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,7 +628,7 @@
         <state relative-caret-position="270">
           <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/Portal_Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -751,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

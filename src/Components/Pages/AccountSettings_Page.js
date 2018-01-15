@@ -12,10 +12,8 @@ class AccountSettings_Page extends Component {
                     <div className='text-center'>
                         <h1>Wilfred </h1>
                         <h1>Wallis</h1>
-                        <h1>Service ID, for connecting or by email</h1>
-                        <h1>WWallis@u.rochester </h1>
-
-                        <h1>Change default team</h1>
+                        <h1>wwallis@u.rochester </h1>
+                        
                     </div>
 
 
