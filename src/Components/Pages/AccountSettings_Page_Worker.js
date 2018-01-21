@@ -6,12 +6,12 @@ class AccountSettings_Page extends Component {
     render() {
         return (
             <div>
-                <NavigationBar MainLink='Portal' Text='Your Account' LinkText='AccountSettings'/>
+                <NavigationBar MainLink='EmployeePortal' Text='Your Account' LinkText='AccountSettingsEmployee'/>
                 <div className='container'>
-                    <BreadCrumb LinkRoute='/Portal' LinkText='Portal' CurrentText='Team Page'/>
+                    <BreadCrumb LinkRoute='/EmployeePortal' LinkText='Employee Portal' CurrentText='Team Page'/>
                     <div className='text-center'>
-                        <h1>Wilfred </h1>
-                        <h1>Wallis</h1>
+                        <h1>Ben </h1>
+                        <h1>Woods</h1>
                         <h1>wwallis@u.rochester </h1>
                     </div>
                 </div>

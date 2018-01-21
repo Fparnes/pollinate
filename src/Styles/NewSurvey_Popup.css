@@ -24,10 +24,15 @@ html, body, .app {
 .popup_inner {
     position: absolute;
     z-index: 1000;
-    left: 25%;
-    right: 25%;
-    top: 25%;
-    bottom: 25%;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+    bottom: 15%;
     margin: auto;
     background: white;
+    overflow-y: scroll;
+}
+.containerPopUp {
+    width: 90%;
+    margin: auto;
 }

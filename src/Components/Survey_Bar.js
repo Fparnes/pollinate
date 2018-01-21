@@ -4,6 +4,9 @@ import Circle from './Circle';
 //css
 
 class SurveyBar extends Component {
+    SurveyClicked(input){
+        this.props.SurveyClicked(input);
+    }
     render() {
         if (this.props.Circle) {
             return (
@@ -18,7 +21,7 @@ class SurveyBar extends Component {
 
         } else {
             return (
-                <div className={this.props.Class}>
+                <div onClick={()=>{this.SurveyClicked(this.props.SurveyID)}} className={this.props.Class}>
                     <h4>{this.props.SurveyTitle}</h4>
                     <p>{this.props.Questions} </p>
                     <p>{this.props.People}</p>

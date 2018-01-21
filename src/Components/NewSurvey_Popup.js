@@ -10,7 +10,9 @@ class NewSurvey_Popup extends Component {
         return (
             <div className='popup'>
                 <div className='popup_inner'>
-                    <GenricNavBar ClickFunction={this.props.ClickFunction} TextTitle={this.props.Title} ButtonText={this.props.ButtonText}/>
+                    <GenricNavBar ClickFunction={this.props.ClickFunction} TextTitle={this.props.Title}
+                                  ButtonText={this.props.ButtonText}/>
+                    {this.props.BodyOfPopup}
                 </div>
             </div>
         );
@@ -19,7 +21,6 @@ class NewSurvey_Popup extends Component {
 
 NewSurvey_Popup.defaultProps = {
     Title: 'Default Title',
-    ClickFunction: ()=>{alert('No Prop Passed')}
 };
 
 export default NewSurvey_Popup;

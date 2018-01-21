@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-
-
 //css
 import '../Styles/SurveyBar_Styles.css';
 
+
 class Circle extends Component {
+
     render() {
         const Percent = this.props.PercentValue;
         const ClassPercent = 'c100 p' + Percent + ' small PushRightCircle';

@@ -8,6 +8,9 @@ class Login_Page extends Component {
             <div>
                 <h1><Link to="/Portal">Portal</Link></h1>
                 <h1><Link to="/EmployeePortal">Employee</Link></h1>
+                <h1><Link to="/StudentAccount">Student</Link></h1>
+                <h1><Link to="/InterviewWorker">InterviewWorker</Link></h1>
+                <h1><Link to="/InterviewStudent">InterviewStudent</Link></h1>
             </div>
         );
     }
