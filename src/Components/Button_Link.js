@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
+//Simple button that is linked
 class Button_Link extends Component {
     render() {
         return (

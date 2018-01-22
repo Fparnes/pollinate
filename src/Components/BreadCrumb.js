@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 //css
 import '../Styles/BreadCrumb_Style.css';
 
+//Shows BreadCrumbs for non-home pages (http://getbootstrap.com/docs/3.3/components/#breadcrumbs)
 class BreadCrumb extends Component {
     render(){
         return (

@@ -26,9 +26,7 @@ class InterviewStudent_Page extends Component {
             .catch(function (error) {
                 console.warn(error);
             });
-
     }
-
     TestSound() {
         const State = this.state;
 

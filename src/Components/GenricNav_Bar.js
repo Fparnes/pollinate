@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-
+//A simple nav bar
 class GenricNav_Bar extends Component {
     ToggleButtons() {
         const ButtonText = this.props.ButtonText;

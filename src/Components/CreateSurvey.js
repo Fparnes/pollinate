@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-//css
-
+//shows under the pop up, used to create a survey
 class CreateSurvey extends Component {
     SubmitSurvey() {
 

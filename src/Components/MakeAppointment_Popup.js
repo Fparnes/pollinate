@@ -15,7 +15,7 @@ class MakeAppointment_Popup extends Component {
             Day: 15,
             Hour: 6,
             Mintues: 1,
-            DayOrNight:0
+            DayOrNight: 0
         };
         this.handleChangeMonths = this.handleChangeMonths.bind(this);
 
@@ -33,6 +33,7 @@ class MakeAppointment_Popup extends Component {
 
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
     componentDidMount() {
         axios.get('/GetStudents')
             .then((response) => {
@@ -46,32 +47,40 @@ class MakeAppointment_Popup extends Component {
                 console.warn(error);
             });
     }
+
     handleChangeMonths(event) {
         console.log(event);
         this.setState({Months: event.target.value});
     }
+
     handleChangeDay(event) {
         this.setState({Day: event.target.value});
     }
+
     handleChangeHour(event) {
         this.setState({Hour: event.target.value});
     }
+
     handleChangeMintues(event) {
         this.setState({Mintues: event.target.value});
     }
+
     handleChangeDayOrNight(event) {
         this.setState({DayOrNight: event.target.value});
     }
-    SelectStudent(student){
+
+    SelectStudent(student) {
         this.setState({
             StudentSelected: student
         })
     }
-    SelectSurvey(Survey){
+
+    SelectSurvey(Survey) {
         this.setState({
             SurveySelected: Survey
         })
     }
+
     PrintStudents() {
         const StudentList = this.state.StudentsObject;
         if (StudentList !== null) {
@@ -79,32 +88,34 @@ class MakeAppointment_Popup extends Component {
             return StudentList.map((student) => {
                 return (
                     <div key={student._id} onClick={() => {
-                       this.SelectStudent(student)}}>
+                        this.SelectStudent(student)
+                    }}>
                         <p>{student.FirstName + ' ' + student.LastName} </p>
                     </div>
                 );
             })
         }
     }
+
     PrintSurvey() {
         const SurveyList = this.state.Surveys;
-        console.log('---');
-        console.log(SurveyList);
         if (SurveyList !== null) {
             return SurveyList.map((survey) => {
                 return (
                     <div key={survey._id} onClick={() => {
-                        this.SelectSurvey(survey)}}>
+                        this.SelectSurvey(survey)
+                    }}>
                         <p>{survey.Name}</p>
                     </div>
                 );
             })
         }
     }
-    handleSubmit(){
-        const State = this.state;
 
-        let Student  = State.StudentSelected;
+    handleSubmit() {
+
+        const State = this.state;
+        let Student = State.StudentSelected;
         let Survey = State.SurveySelected;
 
         let DateObject = {
@@ -121,18 +132,21 @@ class MakeAppointment_Popup extends Component {
             .then((response) => {
                 console.log(response);
             })
-            .catch( (error) => {
+            .catch((error) => {
                 console.log(error);
             });
     }
+
     RenderStudentSelected() {
+        //used for display to make someone book an appoinment
         const StudentSelected = this.state.StudentSelected;
         const SurveySelected = this.state.SurveySelected;
         console.log(StudentSelected);
         if (StudentSelected !== null && SurveySelected !== null) {
             return (
                 <div>
-                    <p>An appointment with {StudentSelected.FirstName + ' ' + StudentSelected.LastName} for Survey "{SurveySelected.Name}" for </p>
+                    <p>An appointment with {StudentSelected.FirstName + ' ' + StudentSelected.LastName} for Survey
+                        "{SurveySelected.Name}" for </p>
                     <select value={this.state.Months} onChange={this.handleChangeMonths}>
                         <option value="1">January</option>
                         <option value="2">February</option>
@@ -209,7 +223,7 @@ class MakeAppointment_Popup extends Component {
                         <option value="0">AM</option>
                         <option value="1">PM</option>
                     </select>
-                   <button onClick={this.handleSubmit.bind(this)}>Submit</button>
+                    <button onClick={this.handleSubmit.bind(this)}>Submit</button>
                 </div>
             )
         }
