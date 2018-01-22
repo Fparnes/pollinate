@@ -12,6 +12,7 @@ class InterviewStudent_Page extends Component {
         };
     }
 
+
     componentDidMount() {
         axios.post('/GetVideoLink',
             {
@@ -25,25 +26,40 @@ class InterviewStudent_Page extends Component {
             .catch(function (error) {
                 console.warn(error);
             });
+
     }
-    TestSound(){
+
+    TestSound() {
         const State = this.state;
 
-        if(!State.TestButtonClicked){
+        if (!State.TestButtonClicked) {
             this.setState({
                 TestButtonClicked: true
             })
         }
+
+        const BrowserSpeechRecognition =
+            window.SpeechRecognition ||
+            window.webkitSpeechRecognition ||
+            window.mozSpeechRecognition ||
+            window.msSpeechRecognition ||
+            window.oSpeechRecognition;
+        const recognition = BrowserSpeechRecognition
+            ? new BrowserSpeechRecognition()
+            : null;
+
+        recognition.start();
     }
-    displayTestSound(){
 
+    displayTestSound() {
         const State = this.state;
-
-        if(State.TestButtonClicked){
+        if (State.TestButtonClicked) {
             return <p>{State.TestSound}</p>
         }
     }
+
     render() {
+
         return (
             <div>
                 <div className='container'>
@@ -51,7 +67,10 @@ class InterviewStudent_Page extends Component {
                         <h1>Instructions:</h1>
                         <p>In a different tab or window go to {this.state.VideoLink}</p>
                         <p>Then test your microphone, by clicking the button below</p>
-                        <button onClick={()=>{ this.TestSound() }} className='btn btn-default'>Test</button>
+                        <button onClick={() => {
+                            this.TestSound()
+                        }} className='btn btn-default'>Test
+                        </button>
                         {this.displayTestSound()}
                     </div>
                     <div className='col-sm-6'>
@@ -62,5 +81,6 @@ class InterviewStudent_Page extends Component {
         );
     }
 }
+
 
 export default InterviewStudent_Page;

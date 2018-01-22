@@ -2,50 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9186390-8329-4cc9-a96c-7ec7905951e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/Auth/AuthTwo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/Auth/Passport.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/Auth/googleStrategy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/Auth/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/DatabaseFiles/Appoiment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/DatabaseFiles/Student_Account.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/DatabaseFiles/Survey_Data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/DatabaseFiles/Worker_Account.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/CreateNewSurvey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/GetAllAppointments.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/GetAllAppointmentsStudent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/GetQuestions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/GetStudents.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/GetVideoLink.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/OnBoardPerson.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/PostAppointment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/react-backend/routes/PostInterviewWorker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/AddCustomQuestion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Containers/Woker_HomePage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/CreateSurvey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/MakeAppointment_Popup.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page_Worker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/InterviewStudent_Page.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Pages/StudentAccount_Page.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/Interview_Action.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Redux/actions/Worker_Account.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/Worker_Account_Reducer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/CustomApp_Styles.css" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BreadCrumb.js" afterPath="$PROJECT_DIR$/src/Components/BreadCrumb.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Circle.js" afterPath="$PROJECT_DIR$/src/Components/Circle.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewSurvey_Popup.js" afterPath="$PROJECT_DIR$/src/Components/NewSurvey_Popup.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Login_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/Login_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/WorkerHome_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/WorkerHome_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SurveyListHolder.js" afterPath="$PROJECT_DIR$/src/Components/SurveyListHolder.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Survey_Bar.js" afterPath="$PROJECT_DIR$/src/Components/Survey_Bar.js" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/index.js" afterPath="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/NewSurvey_Popup.css" afterPath="$PROJECT_DIR$/src/Styles/NewSurvey_Popup.css" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/InterviewStudent_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/InterviewStudent_Page.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/SurveyBar_Styles.css" afterPath="$PROJECT_DIR$/src/Styles/SurveyBar_Styles.css" />
       <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,21 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MakeAppointment_Popup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MakeAppointment_Popup.js">
+      <file leaf-file-name="StudentAccount_Page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Pages/StudentAccount_Page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="129" column="29" lean-forward="true" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountSettings_Page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="945">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,34 +40,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientTeam_Page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Pages/ClientTeam_Page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dumb.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Pages/Dumb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InterviewStudent_Page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/InterviewStudent_Page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="403">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#77#141#0" expanded="true" />
+                <element signature="e#212#247#0" expanded="true" />
+                <element signature="e#369#426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle_Styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Styles/Circle_Styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomApp_Styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Styles/CustomApp_Styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewSurvey_Popup.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Styles/NewSurvey_Popup.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurveyBar_Styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Styles/SurveyBar_Styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6143">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,41 +120,11 @@
       <file leaf-file-name="InterviewWorker_Page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="-630">
+              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Circle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Circle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateSurvey.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/CreateSurvey.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenricNav_Bar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/GenricNav_Bar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/CreateSurvey.js" />
-        <option value="$PROJECT_DIR$/react-backend/DatabaseFiles/Survey_Data.js" />
         <option value="$PROJECT_DIR$/src/Components/MakeAppointment.js" />
         <option value="$PROJECT_DIR$/react-backend/DatabaseFiles/Passport.js" />
         <option value="$PROJECT_DIR$/react-backend/Auth/Passport.js" />
@@ -243,13 +206,15 @@
         <option value="$PROJECT_DIR$/react-backend/DatabaseFiles/Student_Account.js" />
         <option value="$PROJECT_DIR$/react-backend/DatabaseFiles/Appoiment.js" />
         <option value="$PROJECT_DIR$/react-backend/routes/PostInterviewWorker.js" />
-        <option value="$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/Login_Page.js" />
         <option value="$PROJECT_DIR$/react-backend/routes/GetStudents.js" />
         <option value="$PROJECT_DIR$/react-backend/DatabaseFiles/Worker_Account.js" />
         <option value="$PROJECT_DIR$/react-backend/app.js" />
         <option value="$PROJECT_DIR$/react-backend/routes/GetVideoLink.js" />
+        <option value="$PROJECT_DIR$/src/Styles/SurveyBar_Styles.css" />
+        <option value="$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/Pages/InterviewStudent_Page.js" />
       </list>
     </option>
@@ -295,13 +260,7 @@
             <path>
               <item name="pollinate_front" type="b2602c69:ProjectViewProjectNode" />
               <item name="pollinate_front" type="462c0819:PsiDirectoryNode" />
-              <item name="react-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pollinate_front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pollinate_front" type="462c0819:PsiDirectoryNode" />
-              <item name="react-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pollinate_front" type="b2602c69:ProjectViewProjectNode" />
@@ -313,19 +272,6 @@
               <item name="pollinate_front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pollinate_front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pollinate_front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pollinate_front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pollinate_front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,12 +330,12 @@
       <workItem from="1515852266436" duration="33000" />
       <workItem from="1515853971089" duration="61968000" />
       <workItem from="1516375505574" duration="4104000" />
-      <workItem from="1516380885935" duration="28188000" />
+      <workItem from="1516380885935" duration="30676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123090000" />
+    <option name="totallyTimeSpent" value="125578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -428,29 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Styles/NewSurvey_Popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/MakeAppointment.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Redux/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -487,14 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="37" column="77" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/CustomApp_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -603,14 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/StudentAccount_Page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -625,27 +532,6 @@
           <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="47" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/Circle_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#77#141#0" expanded="true" />
-            <element signature="e#212#247#0" expanded="true" />
-            <element signature="e#369#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -802,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page_Worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/ClientTeam_Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -826,10 +704,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/BreadCrumb_Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/Circle_Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/CustomApp_Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/NewSurvey_Popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/SurveyBar_Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6143">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page_Worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/StudentAccount_Page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#77#141#0" expanded="true" />
+            <element signature="e#212#247#0" expanded="true" />
+            <element signature="e#369#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/InterviewWorker_Page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="-630">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -838,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/InterviewStudent_Page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="403">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

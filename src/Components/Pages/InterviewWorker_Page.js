@@ -40,7 +40,6 @@ class InterviewWorker_Page extends Component {
                     HashTableOfQuestions[Question] = key;
                 });
 
-
                 this.setState({
                     Questions: ListOfQuestionsArray,
                     HashTableOfQuestions: HashTableOfQuestions
@@ -54,8 +53,8 @@ class InterviewWorker_Page extends Component {
     NewSurvey_Toggle(IDofButtonClicked) {
 
         if (this.state.PopUpToggle) {
-            //if it is an object, it is an event which throws an error
-            if(typeof(IDofButtonClicked) === 'object'){
+            //if it is an object, it is an event which if passed throws an error throws an error
+            if (typeof(IDofButtonClicked) === 'object') {
                 this.setState({
                     PopUpToggle: false,
                 });
@@ -98,7 +97,7 @@ class InterviewWorker_Page extends Component {
         let ListOfQuestionsAsked = [];
 
         //Removing questions from question array to asked
-        let ArrayOfQuestionsCurrent = ArrayOfQuestions.filter(( obj ) => {
+        let ArrayOfQuestionsCurrent = ArrayOfQuestions.filter((obj) => {
             return obj._id !== input;
         });
 
@@ -107,12 +106,12 @@ class InterviewWorker_Page extends Component {
         });
 
         ArrayOfAskedQuestions.forEach((Question) => {
-            ListOfQuestionsAsked.push({Title: Question.Title, _id: Question.Title  });
+            ListOfQuestionsAsked.push({Title: Question.Title, _id: Question.Title});
         });
 
-        let hashValue  = HashTableOfQuestions[input];
+        let hashValue = HashTableOfQuestions[input];
 
-        if(hashValue === undefined){
+        if (hashValue === undefined) {
             hashValue = input;
         }
         this.setState({
@@ -122,7 +121,8 @@ class InterviewWorker_Page extends Component {
         })
 
     }
-    EndInterview(){
+
+    EndInterview() {
         const InterviewOrder = this.state.OrderOfQuestionsAsked;
         console.log(InterviewOrder);
         axios.post('/PostInterviewWorker',
@@ -139,6 +139,7 @@ class InterviewWorker_Page extends Component {
                 console.warn(error);
             });
     }
+
     render() {
         let ListOfSurveys = [{Questions: 10, People: 20, Title: 'Rochester Running', Percent: 85},
             {Questions: 11, People: 20, Title: 'Soup Spoon', Percent: 75},
@@ -175,7 +176,9 @@ class InterviewWorker_Page extends Component {
                         />
                     </div>
                     <div className='col-md-6'>
-                        <SurveyListHolder SurveyData={ListOfSurveys} ClickFunction={  ()=>{this.EndInterview()}}
+                        <SurveyListHolder SurveyData={ListOfSurveys} ClickFunction={() => {
+                            this.EndInterview()
+                        }}
                                           TextTitle='List of Asked Questions' ButtonText='End Interview'/>
                     </div>
                 </div>
