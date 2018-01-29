@@ -3,6 +3,7 @@ import Circle from './Circle';
 
 //css
 
+
 class SurveyBar extends Component {
     SurveyClicked(input){
         this.props.SurveyClicked(input);
