@@ -6,7 +6,7 @@ import CreateSurvey from '../CreateSurvey';
 import ButtonLink from '../Button_Link';
 import AppoinmentBody from '../MakeAppointment_Popup';
 import axios from "axios/index";
-
+import LoginButton from '../LoginButton';
 class WorkerHome_Page extends Component {
     constructor(props) {
         super(props);
@@ -199,6 +199,7 @@ class WorkerHome_Page extends Component {
                         }} SurveyData={ListOfSurveys}
                                           TextTitle='List of Active Surveys' ButtonText='Add Survey'/>
                     </div>
+                    <LoginButton/>
                 </div>
             </div>
         );
