@@ -16,6 +16,7 @@ const GetAllAppointmentsStudent = require('./routes/GetAllAppointmentsStudent');
 const GetQuestions = require('./routes/GetQuestions');
 const PostInterviewWorker = require('./routes/PostInterviewWorker');
 const GetVideoLink = require('./routes/GetVideoLink');
+const AccessTokenCheck = require('./routes/AccessTokenCheck');
 
 //Autho
 const passport = require('passport');
@@ -66,6 +67,8 @@ app.use('/GetAllAppointmentsStudent', GetAllAppointmentsStudent);
 app.use('/GetQuestions', GetQuestions);
 app.use('/PostInterviewWorker', PostInterviewWorker);
 app.use('/GetVideoLink', GetVideoLink);
+app.use('/AccessTokenCheck', AccessTokenCheck);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

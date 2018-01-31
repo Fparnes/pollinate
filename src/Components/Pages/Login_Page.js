@@ -10,21 +10,23 @@ class Login_Page extends Component {
         this.state = {
             SignedIn: false
         }
+        this.handleSocialLogin = this.handleSocialLogin.bind(this);
+        this.handleSocialLoginFailure = this.handleSocialLoginFailure.bind(this);
     }
     handleSocialLoginFailure(err) {
         console.error(err);
     }
     handleSocialLogin(user) {
+        const self = this;
         console.log(user);
         axios.post('/AccessTokenCheck', {
             accessToken: user._token.accessToken,
             email: user._profile.email,
         })
             .then(function (res) {
-                if (res.allowed) {
-                    this.setCookie('Token', res.accessToken);
-                    this.setCookie('email', res.email);
-                    this.setState({
+                console.log(res);
+                if (res.data) {
+                    self.setState({
                         SignedIn: true
                     });
                 } else {

@@ -12,8 +12,7 @@ const WorkerAccountSchema = new Schema({
     Email: String,
     TeamId: [],
     VideoLink: String,
-    GoogleID: String,
-    GoogleLoginToken: String
+    AccessToken: String
 });
 
 const WorkerAccount = mongoose.model('WorkerAccount', WorkerAccountSchema);
