@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 //css
 import '../Styles/OnBoardingQuestion_Styles.css';
 
+//props = Question, Text, TextChange, StateID
+
 class TextQuestion extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +12,7 @@ class TextQuestion extends Component {
     }
     handleChange(event){
         const ChangedValue = event.target.value;
-        const ObjectID = this.props.ID;
+        const ObjectID = this.props.StateID;
 
         let StateObject = {};
         StateObject[ObjectID] = ChangedValue;
@@ -20,7 +22,7 @@ class TextQuestion extends Component {
         return (
             <div className='IndivQuestion'>
                 <label>{this.props.Question}</label>
-                <input value={this.props.Text} type='text' OnChange={this.handleChange} className="form-control"/>
+                <input value={this.props.Text} type='text' onChange={this.handleChange} className="form-control"/>
             </div>
         )
     }

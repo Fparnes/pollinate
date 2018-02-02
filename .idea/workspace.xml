@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9186390-8329-4cc9-a96c-7ec7905951e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AddCustomQuestion.js" afterPath="$PROJECT_DIR$/src/Components/AddCustomQuestion.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BreadCrumb.js" afterPath="$PROJECT_DIR$/src/Components/BreadCrumb.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Circle.js" afterPath="$PROJECT_DIR$/src/Components/Circle.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewSurvey_Popup.js" afterPath="$PROJECT_DIR$/src/Components/NewSurvey_Popup.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Login_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/Login_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/WorkerHome_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/WorkerHome_Page.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SurveyListHolder.js" afterPath="$PROJECT_DIR$/src/Components/SurveyListHolder.js" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/BreadCrumb_Style.css" afterPath="$PROJECT_DIR$/src/Components/Styles/BreadCrumb_Style.css" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/Circle_Styles.css" afterPath="$PROJECT_DIR$/src/Components/Styles/Circle_Styles.css" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/CustomApp_Styles.css" afterPath="$PROJECT_DIR$/src/Components/Styles/CustomApp_Styles.css" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/NewSurvey_Popup.css" afterPath="$PROJECT_DIR$/src/Components/Styles/NewSurvey_Popup.css" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/SurveyBar_Styles.css" afterPath="$PROJECT_DIR$/src/Components/Styles/SurveyBar_Styles.css" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,8 +65,8 @@
       <file leaf-file-name="OnBoardingPageOne.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="178" column="57" lean-forward="false" selection-start-line="178" selection-start-column="57" selection-end-line="178" selection-end-column="57" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -92,8 +77,8 @@
       <file leaf-file-name="PullDownMenuHelper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+            <state relative-caret-position="315">
+              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -102,8 +87,8 @@
       <file leaf-file-name="TextQuestion.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -225,12 +210,12 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingHandler.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" />
-        <option value="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" />
-        <option value="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" />
         <option value="$PROJECT_DIR$/src/Styles/TextQuestion.css" />
         <option value="$PROJECT_DIR$/OnBoardingQuestion_Styles.css" />
         <option value="$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css" />
+        <option value="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js" />
+        <option value="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" />
       </list>
     </option>
   </component>
@@ -364,12 +349,12 @@
       <workItem from="1516380885935" duration="31469000" />
       <workItem from="1517196259888" duration="3097000" />
       <workItem from="1517422818639" duration="4286000" />
-      <workItem from="1517591953881" duration="7671000" />
+      <workItem from="1517591953881" duration="8323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141425000" />
+    <option name="totallyTimeSpent" value="142077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -800,24 +785,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+        <state relative-caret-position="315">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="178" column="57" lean-forward="false" selection-start-line="178" selection-start-column="57" selection-end-line="178" selection-end-column="57" />
+        <state relative-caret-position="315">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -13,8 +13,13 @@ class PullDownMenuHelper extends Component {
         })
     }
     HandleChange(event){
-        const StateID = this.props.ListOfOptions.StateName;
-        this.props.Change(StateID, event.target.value);
+
+        const ChangedValue = event.target.value;
+        const ObjectID = this.props.ListOfOptions.StateName;
+
+        let StateObject = {};
+        StateObject[ObjectID] = ChangedValue;
+        this.props.Change(StateObject);
     }
     render(){
         return (
