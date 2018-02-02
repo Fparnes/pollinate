@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //css
-import '../Styles/SurveyBar_Styles.css';
+import './Styles/SurveyBar_Styles.css';
 
 //Builds a circle to show the percent done on a survey
 class Circle extends Component {

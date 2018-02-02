@@ -3,7 +3,7 @@ import GenricNavBar from "./GenricNav_Bar";
 import SurveyBar from "./Survey_Bar";
 
 //css
-import '../Styles/Circle_Styles.css';
+import './Styles/Circle_Styles.css';
 
 
 class SurveyListHolder extends Component {

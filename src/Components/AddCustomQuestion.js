@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //styles
-import '../Styles/CustomApp_Styles.css'
+import './Styles/CustomApp_Styles.css'
 
 
 //Component for under NewSurvey_Popup.  It adds a custom question when the worker is running

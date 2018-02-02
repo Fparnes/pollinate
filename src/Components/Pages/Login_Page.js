@@ -8,8 +8,8 @@ class Login_Page extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            SignedIn: false
-        }
+            SignedIn: true //change this
+        };
         this.handleSocialLogin = this.handleSocialLogin.bind(this);
         this.handleSocialLoginFailure = this.handleSocialLoginFailure.bind(this);
     }

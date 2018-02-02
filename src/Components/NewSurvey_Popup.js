@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import GenricNavBar from './GenricNav_Bar';
 
 //css
-import '../Styles/NewSurvey_Popup.css'
+import './Styles/NewSurvey_Popup.css'
 
 //Main Pop up
 class NewSurvey_Popup extends Component {
