@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9186390-8329-4cc9-a96c-7ec7905951e8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/CheckBoxQuestion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageThree.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" />
-      <change beforePath="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js" afterPath="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" afterPath="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" />
       <change beforePath="$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css" afterPath="$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css" />
     </list>
@@ -21,6 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Login_Page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Pages/Login_Page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Portal_Page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/Portal_Page.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,31 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentAccount_Page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Pages/StudentAccount_Page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddCustomQuestion.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/AddCustomQuestion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OnBoardingPageOne.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2574">
-              <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
+            <state relative-caret-position="293">
+              <caret line="242" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="280" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -65,8 +56,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnBoardingPageTwo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OnBoardingPageTwo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1642">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnBoardingPageThree.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageThree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-562">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckBoxQuestion.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/CheckBoxQuestion.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -78,10 +93,10 @@
       <file leaf-file-name="OnBoard_Page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="414">
+              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#60#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,23 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountSettings_Page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Pages/AccountSettings_Page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OnBoardingQuestion_Styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -168,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react-backend/routes/OnBoardPerson.js" />
-        <option value="$PROJECT_DIR$/react-backend/routes/GetAllAppointmentsStudent.js" />
         <option value="$PROJECT_DIR$/react-backend/routes/GetAllAppointments.js" />
         <option value="$PROJECT_DIR$/src/Components/Redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Redux/actions/Interview_Action.js" />
@@ -214,11 +215,13 @@
         <option value="$PROJECT_DIR$/OnBoardingQuestion_Styles.css" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuQuestion.js" />
-        <option value="$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js" />
+        <option value="$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js" />
-        <option value="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" />
         <option value="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js" />
+        <option value="$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageThree.js" />
+        <option value="$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js" />
+        <option value="$PROJECT_DIR$/src/Components/OnBoarding/CheckBoxQuestion.js" />
       </list>
     </option>
   </component>
@@ -286,6 +289,13 @@
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pollinate_front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pollinate_front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -346,17 +356,18 @@
       <workItem from="1517196259888" duration="3097000" />
       <workItem from="1517422818639" duration="4286000" />
       <workItem from="1517591953881" duration="10510000" />
-      <workItem from="1517690326776" duration="2478000" />
+      <workItem from="1517690326776" duration="7406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146742000" />
+    <option name="totallyTimeSpent" value="151670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -389,20 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/Styles/BreadCrumb_Style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Styles/Circle_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Styles/CustomApp_Styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -497,6 +494,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,16 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/Login_Page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/StudentAccount_Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -682,14 +672,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuQuestion.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/TextQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -698,10 +680,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Styles/OnBoardingQuestion_Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/PullDownMenuHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="242" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="280" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1642">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/Login_Page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -718,25 +736,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/OnBoard_Page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="414">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#60#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageOne.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageThree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
+        <state relative-caret-position="-562">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/OnBoardingPageTwo.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/OnBoarding/CheckBoxQuestion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

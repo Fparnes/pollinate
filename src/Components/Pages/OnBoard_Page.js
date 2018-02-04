@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
+
+//Onboarding Pages
 import OnBoardingPageOne from '../OnBoarding/OnBoardingPageOne';
+import OnBoardingPageTwo from '../OnBoarding/OnBoardingPageTwo';
+import OnBoardingPageThree from '../OnBoarding/OnBoardingPageThree';
 
 
 class OnBoard_Page extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            CurrentPage: 0,
+            CurrentPage: 1,
             PageOneInfo: null,
             PageTwoInfo: null,
             PageThreeInfo: null,
@@ -25,12 +29,14 @@ class OnBoard_Page extends Component {
                 break;
             case 2:
                 this.setState({
-                    PageTwoInfo: StateInfo
+                    PageTwoInfo: StateInfo,
+                    CurrentPage: 2
                 });
                 break;
             case 3:
                 this.setState({
-                    PageThreeInfo: StateInfo
+                    PageThreeInfo: StateInfo,
+                    CurrentPage: 3
                 });
                 break;
             case 4:
@@ -47,16 +53,15 @@ class OnBoard_Page extends Component {
 
     render() {
         const CurrentPage = this.state.CurrentPage;
+        console.log('CurrentPage:' +CurrentPage );
         switch (CurrentPage) {
-            case 0:
-                return <OnBoardingPageOne ChangePage={this.ChangePage}/>;
             case 1:
-
-                break;
+                return <OnBoardingPageOne ChangePage={this.ChangePage}/>;
             case 2:
-
-                break;
+                return <OnBoardingPageTwo ChangePage={this.ChangePage}/>;
             case 3:
+                return <OnBoardingPageThree ChangePage={this.ChangePage}/>;
+            case 4:
 
                 break;
             default:

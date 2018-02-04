@@ -266,9 +266,10 @@ class OnBoardingOne extends Component {
                 </div>
 
                 {/*Going to the next page*/}
+                <hr/>
                 <button onClick={() => {
-                this.props.ChangePage(1 , this.state)
-                }} type="submit" className="btn btn-default">Submit
+                this.props.ChangePage(2 , this.state)
+                }} type="submit" className="btn CustomButton btn-default">Next Page
                 </button>
 
             </div>
