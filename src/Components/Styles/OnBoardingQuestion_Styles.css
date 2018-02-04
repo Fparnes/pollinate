@@ -1,4 +1,8 @@
 .IndivQuestion {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.QuestionTitle {
+    width: 100%;
+    margin-bottom: 20px;
 }
